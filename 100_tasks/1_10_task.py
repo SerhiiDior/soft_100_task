@@ -94,6 +94,14 @@ class SimpleString:
 # 3,5
 # Then, the output of the program should be:
 # [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
+def array_digit(x=3,y=5):
+    lst = []
+    for i in range(x):
+        nested = []
+        for j in range(y):
+            nested.append(i*j)
+        lst.append(nested)
+    return lst
 
 
 # 8. Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
