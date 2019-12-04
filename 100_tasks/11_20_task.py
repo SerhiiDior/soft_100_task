@@ -48,7 +48,7 @@ def letters_numbers():
 
 def upper_lower():
     sentence = input("Write the sentence with letters and numbers: ")
-    print("UPPER CASE {} \n\rLOWER CASE {}".format(sum(map((str.isupper),sentence)),sum(map((str.islower),sentence))))
+    print("UPPER CASE {} \nLOWER CASE {}".format(sum(map((str.isupper),sentence)),sum(map((str.islower),sentence))))
     return ''
 # print(upper_lower())
 
@@ -183,8 +183,8 @@ def sort_name_age():
 
 class DivisibleBySeven:
     
-    def __init__(self):
-        self.n = int(input('Enter number: '))
+    # def __init__(self):
+    #     self.n = int(input('Enter number: '))
     
     def generator(self):
         return [i for i in range(self.n+1) if i%7==0]  

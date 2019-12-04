@@ -20,12 +20,11 @@
 # Then, the output of the program should be:
 # 2
 
-def move_robot(x = 0, y = 0):
+def move_robot(* args, x = 0, y = 0):
     try:
         while True:
             print('For exit just press "ENTER"')
-            c = input('''Please typing direction seperated by whitespace
-"UP, DOWN, LEFT and RIGHT" and amount of steps:  ''').split()
+            c = str(*args).split()
             if not c:
                 break
             else:
@@ -43,7 +42,7 @@ def move_robot(x = 0, y = 0):
     
     except Exception:
         return 'You make a mistake please, reboot program'
-# print(move_robot())
+# print(move_robot("UP 5 DOWN 3 LEFT 3 RIGHT 2"))
 
 
 # Question 22
@@ -75,10 +74,9 @@ def count_freq():
 # Question 23
 # Write a method which can calculate square value of number
 
-def square_val():
-    num = input('Enter number: ')
-    if isinstance(float(num),float):
-        return round((float(num)**2),2)
+def square_val(n):
+    if isinstance(float(n),float):
+        return round((float(n)**2),2)
     else:
         return 'Enter correct data'
 # print(square_val())

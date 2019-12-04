@@ -1,4 +1,3 @@
-def square(number):
+def square_val(n):
     return number*number
-number=int(input("Number->"))
-print(square(number))
+
