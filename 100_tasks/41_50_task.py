@@ -18,7 +18,7 @@ def two_line_tuple(*t):
 # in the given tuple (1,2,3,4,5,6,7,8,9,10).
 def even_tuple(*t):
     return '{}'.format(tuple(filter((lambda x: x%2==0),*t)))
-# print(even_tuple((1,2,3,4,5,6,7,8,9,10)))
+print(even_tuple((1,2,3,4,5,6,7,8,9,10)))
 
 # Question 44
 # Write a program which accepts a string

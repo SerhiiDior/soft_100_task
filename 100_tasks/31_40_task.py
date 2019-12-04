@@ -59,6 +59,7 @@ def dict_value(a = 1, b = 20):
 # where the values are square of numbers
 # between 1 and 20 (both included).
 def dict_value_2(a = 1, b = 20):
+
     dictionary = {x:x**2 for x in range(a,b+1)}
     return list(map((lambda x: x),dictionary.values()))
 # print(dict_value_2())
@@ -70,7 +71,7 @@ def dict_value_2(a = 1, b = 20):
 def dict_value_3(a = 1, b = 20):
     dictionary = {x:x**2 for x in range(a,b+1)}
     return list(map((lambda x: x),dictionary.items()))[:5]
-# print(dict_value_3())
+print(dict_value_3())
 
 # Question 39
 # Define a function which can generate a list where the values are square of numbers

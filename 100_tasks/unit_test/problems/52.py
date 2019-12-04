@@ -1,10 +1,15 @@
 from math import pi
 class Circle:
-    def __init__(self,r):
-        self.radius=r
+    def __init__(self,):
+        pass
     def area(self):
-        return pi*(self.radius**2)
+        self.r = float( input( "Radius->" ) )
+        return pi*(self.r**2)
 
-r=float(input("Radius->"))
-circle=Circle(r)
-print(round(circle.area(),2))
+
+circle=Circle()
+
+
+if __name__ == '__main__':
+    print( round( circle.area( ), 2 ) )
+
