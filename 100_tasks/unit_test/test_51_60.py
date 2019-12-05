@@ -12,6 +12,12 @@ class TestRadius(unittest.TestCase):
     def test_radius(self,area):
         self.assertEqual(area(12),452.39)
 
+
+class TestClassSix():
+
+
+
+
 if __name__  == '__main__':
     unittest.main()
 
