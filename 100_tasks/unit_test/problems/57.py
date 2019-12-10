@@ -1,3 +1,5 @@
-email=input("Email->")
-email= email.split('@')
-print(email[0])
+def valid_email(*args):
+    email=str(*args)
+    email= email.split('@')
+    return email[0]
+

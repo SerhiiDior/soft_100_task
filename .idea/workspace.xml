@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc7f474-9a94-4879-9209-0f1bea386624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/probFiftyOneSixty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/probFourtyOneFifty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/probThirtyOneFourty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/test31_40.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/test_41_50.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/test_51_60.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/31_40_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/31_40_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/41_50_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/41_50_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/probTwentyOneThirty.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/probTwentyOneThirty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/32.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/33.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/41.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/41.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/52.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/52.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/probEightOneNinety.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_tasks/unit_test/test_81_90.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/probFiftyOneSixty.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/probFiftyOneSixty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/problems/81-90.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/problems/81-90.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_tasks/unit_test/test_51_60.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_tasks/unit_test/test_51_60.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +17,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/test_51_60.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-144">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/test_81_90.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/probEightOneNinety.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,26 +71,21 @@
         <option value="$PROJECT_DIR$/100_tasks/41_50_task.py" />
         <option value="$PROJECT_DIR$/100_tasks/unit_test/test_41_50.py" />
         <option value="$PROJECT_DIR$/100_tasks/unit_test/probFourtyOneFifty.py" />
-        <option value="$PROJECT_DIR$/100_tasks/unit_test/probFiftyOneSixty.py" />
         <option value="$PROJECT_DIR$/100_tasks/unit_test/problems/52.py" />
+        <option value="$PROJECT_DIR$/100_tasks/unit_test/problems/57.py" />
+        <option value="$PROJECT_DIR$/100_tasks/unit_test/probFiftyOneSixty.py" />
         <option value="$PROJECT_DIR$/100_tasks/unit_test/test_51_60.py" />
+        <option value="$PROJECT_DIR$/100_tasks/unit_test/problems/81-90.py" />
+        <option value="$PROJECT_DIR$/100_tasks/unit_test/probEightOneNighty.py" />
+        <option value="$PROJECT_DIR$/100_tasks/unit_test/test_81_90.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/task_serve_100.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1169" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-24" />
+    <option name="y" value="-23" />
+    <option name="width" value="1939" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -117,7 +125,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SOFT_SERVE_TEST_AUTOMATION/Month_2/BeginSelenium" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../env_seleniumCourse" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,28 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_51_60">
-    <configuration name="45" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="task_serve_100" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_tasks/unit_test/problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_tasks/unit_test/problems/45.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_81_90.TestNine.test_task_81">
     <configuration name="52" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="task_serve_100" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="probFourtyOneFifty" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="57" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="task_serve_100" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +170,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_tasks/unit_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_tasks/unit_test/problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_tasks/unit_test/probFourtyOneFifty.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_tasks/unit_test/problems/57.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="81-90" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="task_serve_100" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_tasks/unit_test/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_tasks/unit_test/problems/81-90.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_41_50.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_81_90.TestNine.test_task_81" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="task_serve_100" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,17 +235,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/100_tasks/unit_test/test_41_50.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_81_90.TestNine.test_task_81&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_81_90.TestNine.test_task_81" />
+        <item itemvalue="Python.81-90" />
         <item itemvalue="Python.test_51_60" />
+        <item itemvalue="Python.57" />
         <item itemvalue="Python.52" />
-        <item itemvalue="Python tests.Unittests in test_41_50.py" />
-        <item itemvalue="Python.probFourtyOneFifty" />
-        <item itemvalue="Python.45" />
       </list>
     </recent_temporary>
   </component>
@@ -254,12 +263,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_41_50_py - 2019.12.04 at 16h 54m 17s.xml">
-      <configuration name="Unittests in test_41_50.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_41_50_py - 2019.12.04 at 16h 54m 32s.xml">
-      <configuration name="Unittests in test_41_50.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_41_50_py - 2019.12.04 at 16h 55m 48s.xml">
       <configuration name="Unittests in test_41_50.py" configurationId="tests" />
     </history-entry>
@@ -284,25 +287,30 @@
     <history-entry file="Unittests_in_test_41_50_py - 2019.12.04 at 17h 13m 22s.xml">
       <configuration name="Unittests in test_41_50.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_81_90_TestNine_test_task_81 - 2019.12.05 at 14h 14m 04s.xml">
+      <configuration name="Unittests for test_81_90.TestNine.test_task_81" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_81_90_TestNine_test_task_81 - 2019.12.05 at 14h 14m 17s.xml">
+      <configuration name="Unittests for test_81_90.TestNine.test_task_81" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="935" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4204672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11822985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3328823" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33199465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -399,31 +407,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/52.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/57.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/56.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/58.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/59.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/probFiftyOneSixty.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/100_tasks/51_60_task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
+        <state relative-caret-position="2482">
+          <caret line="146" column="43" lean-forward="true" selection-start-line="146" selection-start-column="43" selection-end-line="146" selection-end-column="43" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/52.py">
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/problems/81-90.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="34">
+          <caret line="20" column="17" lean-forward="true" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/test_71_80.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/test_51_60.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-144">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/test_81_90.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_tasks/unit_test/probEightOneNinety.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
