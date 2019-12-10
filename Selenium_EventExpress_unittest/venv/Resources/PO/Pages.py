@@ -1,18 +1,10 @@
-import time
+# import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-
-import os, sys, inspect
-# fetch path to the directory in which current file is, from root directory or C:\ (or whatever driver number it is)
-currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-# extract the path to parent directory
-parentdir = os.path.dirname(currentdir)
-# insert path to the folder from parent directory from which the python module/ file is to be imported
-sys.path.insert(0, parentdir)
 
 from Resources.Locators import *
 from Resources.TestData import TestData
@@ -42,10 +34,10 @@ class BasePage():
         element.send_keys(path)
 
         
-    def enter_to_site(self):
+    def enter_to_site(self,login,password):
         self.click_to_element( *self.locator_main.SIGNIN )
-        self.find_element( *self.locator_form.EMAIL ).send_keys( 'user@gmail.com' )
-        self.find_element( *self.locator_form.PASSWORD ).send_keys( '1qaz1qaz' )
+        self.send_keys_to(login, *self.locator_form.EMAIL )
+        self.send_keys_to(password, *self.locator_form.PASSWORD )
         self.click_to_element( *self.locator_form.BUTTON_SIGIN )
 
 
@@ -71,17 +63,17 @@ class LoginPage(BasePage):
     def click_on_login_button(self):
         self.click_to_element( *self.locator_main.SIGNIN )
 
-    def type_login(self):
-        self.find_element( *self.locator_form.EMAIL ).send_keys('user@gmail.com' )
+    def type_login(self, *login):
+        self.send_keys_to(*login,*self.locator_form.EMAIL )
 
-    def type_pass(self):
-        self.find_element( *self.locator_form.PASSWORD ).send_keys('1qaz1qaz')
+    def type_pass(self, *password):
+        self.send_keys_to(*password, *self.locator_form.PASSWORD)
 
     def press_button_signin(self):
         self.click_to_element( *self.locator_form.BUTTON_SIGIN )
         
     def enter_to_site_e(self):
-        self.enter_to_site()
+        self.enter_to_site(TestData.LOGIN_USER, TestData.PASSWORD_USER)
 
     def click_to_profile(self):
         self.click_to_element(*self.locator_home.PROFILE)
@@ -108,6 +100,8 @@ class ViewEvent(BasePage):
     def click_to_add_event(self,*locators):
         self.click_to_element(*self.locator_profile.ADD_EVENT)
         
+
+
 class AddEvent(BasePage):
     
     def __init__(self, driver):
@@ -122,6 +116,8 @@ class AddEvent(BasePage):
 
     def download(self):
         self.upload_file(self.image, *self.locator_add_event.UPLOAD_PICTURE)
+        
+    
         
     
         
