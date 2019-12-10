@@ -33,9 +33,22 @@ class BasePage():
         element = self.find_element(*locators)
         element.click()
 
-    def send_keys_to(self, *locators):
+    def send_keys_to(self,data,*locators):
         element = self.find_element(*locators)
-        element.send_keys[data]
+        element.send_keys(data)
+
+    def upload_file(self,path, *locators):
+        element = self.find_element( *locators )
+        element.send_keys(path)
+
+        
+    def enter_to_site(self):
+        self.click_to_element( *self.locator_main.SIGNIN )
+        self.find_element( *self.locator_form.EMAIL ).send_keys( 'user@gmail.com' )
+        self.find_element( *self.locator_form.PASSWORD ).send_keys( '1qaz1qaz' )
+        self.click_to_element( *self.locator_form.BUTTON_SIGIN )
+
+
 
 
 
@@ -48,6 +61,8 @@ class LoginPage(BasePage):
         
         self.locator_main = MainPageLocators
         self.locator_form = LoginPageLocators
+        self.locator_home = HomePageLocators
+        self.locator_profile = ProfilePageLocators
 
         
     
@@ -64,18 +79,23 @@ class LoginPage(BasePage):
 
     def press_button_signin(self):
         self.click_to_element( *self.locator_form.BUTTON_SIGIN )
+        
+    def enter_to_site_e(self):
+        self.enter_to_site()
 
-  
+    def click_to_profile(self):
+        self.click_to_element(*self.locator_home.PROFILE)
+    
+    def click_to_add_event(self,*locators):
+        self.click_to_element(*self.locator_profile.ADD_EVENT)
+
+    
         
-    def enter_to_site(self):
-        self.click_to_element( *self.locator_main.SIGNIN )
-        self.find_element( *self.locator_form.EMAIL ).send_keys( 'user@gmail.com' )
-        self.find_element( *self.locator_form.PASSWORD ).send_keys( '1qaz1qaz' )
-        self.click_to_element( *self.locator_form.BUTTON_SIGIN )
+    
         
         
         
-class CreateEvent(BasePage):
+class ViewEvent(BasePage):
 
     def __init__(self, driver):
         super( ).__init__( driver )
@@ -84,9 +104,29 @@ class CreateEvent(BasePage):
 
     def open_profile_events(self):
         self.click_to_element( *self.locator_home.PROFILE )
-        
+
     def click_to_add_event(self,*locators):
         self.click_to_element(*self.locator_profile.ADD_EVENT)
+        
+class AddEvent(BasePage):
+    
+    def __init__(self, driver):
+        super( ).__init__( driver )
+        
+        self.locator_add_event = AddEventPageLocators
+        self.title = TestData.TITLE
+        self.image = TestData.IMAGE
+        
+    def add_title(self):
+        self.send_keys_to(self.title,*self.locator_add_event.TITLE_EVENT,)
+
+    def download(self):
+        self.upload_file(self.image, *self.locator_add_event.UPLOAD_PICTURE)
+        
+    
+        
+    
+    
 
     
 

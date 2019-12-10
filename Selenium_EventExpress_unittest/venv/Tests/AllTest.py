@@ -13,7 +13,7 @@ sys.path.insert(0, parentdir+'\Resources\PO')
 from Resources.Locators import *
 from Resources.TestData import TestData
 from Resources.PO import Pages
-from Pages import LoginPage, CreateEvent
+from Pages import LoginPage, ViewEvent, AddEvent
 
 class TestLoginToSite(unittest.TestCase):
     
@@ -23,16 +23,16 @@ class TestLoginToSite(unittest.TestCase):
         self.driver.maximize_window()
 
 
-    def tearDown(self):
-        self.driver.close()
-        self.driver.quit()
+    # def tearDown(self):
+    #     self.driver.close()
+    #     self.driver.quit()
 
 
 class Test_Login(TestLoginToSite):
 
     def setUp(self):
         # to call the setUp() method of base class or super class.
-        super( ).setUp()
+        super().setUp()
 
 
 
@@ -43,18 +43,31 @@ class Test_Login(TestLoginToSite):
         self.login_Page.type_pass()
         self.login_Page.press_button_signin()
         self.assertTrue(self.driver.find_element(*HomePageLocators.LOGO).is_displayed()), "element not found"
-      
 
-
-
-        # self.assertEqual()
 
     def test_click_to_add_event(self):
         self.login_Page = LoginPage( self.driver )
-        self.add_event = CreateEvent( self.login_Page )
-        self.login_Page.enter_to_site()
+        self.add_event = ViewEvent( self.login_Page )
+        self.login_Page.enter_to_site_e()
         self.add_event.open_profile_events()
         self.add_event.click_to_add_event( )
+        self.assertTrue(self.driver.find_element(*AddEventPageLocators.PICTURE).is_displayed()), "element not found"
+
+
+    def test_create_event(self):
+        self.login_Page = LoginPage( self.driver )
+        self.create_event = AddEvent(self.login_Page)
+        self.login_Page.enter_to_site()
+        self.login_Page.click_to_profile()
+        self.login_Page.click_to_add_event()
+        self.create_event.add_title()
+        self.assertTrue(self.driver.find_element(*AddEventPageLocators.TITLE_EVENT).is_enabled()), "title doesn't enable"
+        self.create_event.download()
+
+
+
+
+
 
 
 

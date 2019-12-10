@@ -29,8 +29,11 @@ class ProfilePageLocators():
 # page for creating events
 class AddEventPageLocators():
     #FROM DATE
+    PICTURE = (By.CSS_SELECTOR, ".placeholder-preview" )
     UPLOAD_PICTURE = (By.CSS_SELECTOR, ".placeholder-preview > input " )
     TITLE_EVENT = (By.NAME, 'title')
     FROM_DATE = (By.CSS_SELECTOR, ".react-datepicker-wrapper" )
     DATE_DATA = (By.CSS_SELECTOR, ".react-datepicker-ignore-onclickoutside") #month/day/year
     CALENDAR = (By.CSS_SELECTOR,".react-datepicker-popper")
+    DESK_TEXT = (By.NAME, "description" )
+    
